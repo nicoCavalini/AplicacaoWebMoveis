@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas de A. Cavalini | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="cabecalho">
+    <nav class="menu">
+        <h1 class="logo">Nicolas Cavalini</h1>
+
+        <button class="botao-menu" id="botao-menu">☰</button>
+
+        <ul class="lista-menu" id="lista-menu">
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <button class="botao-tema" id="botao-tema">🌙</button>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-foto">
+            <img src="img/foto.png" alt="Foto de Nicolas de A. Cavalini">
+        </div>
+
+        <div class="hero-conteudo">
+            <p class="subtitulo">Desenvolvedor Full Stack</p>
+
+            <h2>Nicolas Cavalini</h2>
+
+            <p>
+                Profissional da área de tecnologia, com experiência em desenvolvimento
+                de sistemas, aplicações web e soluções voltadas para negócios.
+            </p>
+
+            <div class="botoes">
+                <a href="#portfolio" class="botao-principal">Ver portfólio</a>
+                <a href="#contato" class="botao-secundario">Entrar em contato</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="secao">
+        <h2>Sobre mim</h2>
+
+        <p>
+            Meu nome é Nicolas de Aquino Cavalini. Atuo como profissional de tecnologia com interesse em
+            desenvolvimento web, sistemas empresariais, engenharia de software,
+            ciência de dados e inteligência artificial.
+        </p>
+
+        <p>
+            Além da tecnologia, também sou músico e professor de cordas, com foco em
+            violão, guitarra, contrabaixo e ukulele nas horas vagas. Nerd raiz desde criança, amante
+            de quadrinhos, filmes e videogames. Gosto de praticar musculação para
+            cuidar da saúde e melhorar minha disciplina.
+        </p>
+    </section>
+
+    <section id="formacao" class="secao">
+        <h2>Formação</h2>
+
+        <div class="cards">
+            <article class="card">
+                <h3>Formações concluídas</h3>
+                <ul>
+                    <li>Técnico em Informática - ETEC</li>
+                    <li>Tecnólogo em ADS - IMPACTA</li>
+                    <li>MBA em Desenvolvimento Full Stack - IMPACTA</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h3>Cursando atualmente</h3>
+                <ul>
+                    <li>Bacharelado em Engenharia de Software - UNINTER</li>
+                    <li>Pós em Ciência de Dados e IA - UNINTER</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Português Brasileiro - Nativo</li>
+                    <li>Inglês - Avançado</li>
+                    <li>Espanhol - Intermediário</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section id="portfolio" class="secao">
+        <h2>Portfólio</h2>
+
+        <p>
+            Abaixo estão alguns links relacionados à minha trajetória profissional,
+            acadêmica e projetos em desenvolvimento.
+        </p>
+
+        <div class="cards">
+            <article class="card">
+                <h3>GitHub</h3>
+                <p>
+                    Repositório com projetos, estudos e códigos desenvolvidos durante
+                    minha jornada na área de tecnologia.
+                </p>
+                <a href="https://github.com/nicoCavalini" target="_blank">Acessar GitHub</a>
+            </article>
+
+            <article class="card">
+                <h3>LinkedIn</h3>
+                <p>
+                    Perfil profissional com informações sobre formação, experiências,
+                    habilidades e trajetória na área de tecnologia.
+                </p>
+                <a href="https://www.linkedin.com/in/nicolascavalini/" target="_blank">Acessar LinkedIn</a>
+            </article>
+
+            <article class="card">
+                <h3>Projetos Web</h3>
+                <p>
+                    Desenvolvimento de páginas, sistemas e soluções web utilizando
+                    HTML, CSS, JavaScript e outras tecnologias.
+                </p>
+                <a href="#contato">Solicitar informações</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="contato" class="secao">
+        <h2>Contato</h2>
+
+        <div class="contato-container">
+            <div class="contato-info">
+                <p><strong>E-mail:</strong> nico.cavalini@gmail.com</p>
+                <p><strong>Telefone:</strong> (11) 91129-7222</p>
+            </div>
+
+            <form id="formulario-contato" class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+
+                <button type="submit">Enviar mensagem</button>
+
+                <p id="mensagem-retorno" class="mensagem-retorno"></p>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<footer class="rodape">
+    <p>&copy; 2026 Nicolas de A. Cavalini. Todos os direitos reservados.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
